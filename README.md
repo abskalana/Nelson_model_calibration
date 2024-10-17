@@ -1,2 +1,1 @@
-# Nelson_model_calibration
-This project aims to calibrate  Nelson model  using python and vba
+This project implements the Nelson-Siegel-Svensson (NSS) model to fit the term structure of interest rates. The project uses Python and involves calibrating the model's parameters (β0, β1, β2, β3, λ1, λ2) by minimizing the error between observed yields and those predicted by the model. The calibration is done using the scipy.optimize.minimize function with bond yield data as input. Some work is using VBA and Excel's Solver.
